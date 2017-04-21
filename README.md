@@ -27,3 +27,8 @@ To lint:
 meteor npm run lint
 ```
 
+### Create a linux build
+
+```bash
+meteor build ../build --server-only --architecture os.linux.x86_64
+```
